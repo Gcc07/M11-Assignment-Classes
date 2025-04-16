@@ -23,7 +23,7 @@ class Movie {
     this.rating = newRating
   }
   displayInfo() {
-    moveInfo.innerHTML = `
+    moveInfo.innerHTML += `
       <p>Title: ${this.title}</p>
       <ul>Cast: ${this.cast}</ul>
       <ul>Description: ${this.description}</ul>
